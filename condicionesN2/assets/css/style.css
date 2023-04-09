@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.flexcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem
+}
+
+input{
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(226, 255, 182);
+}
+
+img{
+    border-radius: 10px;
+}
+
+.flexboton, .flexresultado{
+    display: flex;
+    justify-content: center;
+}
+
+.flexresultado{
+    color: greenyellow;
+    font-size: 64px;
+}

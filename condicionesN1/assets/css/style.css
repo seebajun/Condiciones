@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+
+}
+
+#foto {
+    width: 40%;
+    border: solid 0px red;
+
+}
